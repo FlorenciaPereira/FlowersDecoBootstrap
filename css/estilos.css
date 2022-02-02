@@ -1,0 +1,38 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos generales */
+body{
+    background-image: url(https://maquinariadejardineria.net/blog/wp-content/uploads/2017/05/Plantas-en-maceta.jpg);
+    background-repeat: space;
+}
+
+/* estilos generales main */
+.container{
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+/* estilos footer */
+h5{
+    padding: 100px 0px;
+}
+
+
+/* estilos main de contacto */
+.chat{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* media queries */
+@media screen and (max-width: 768px){
+    .container{
+        color: black;
+    }
+}

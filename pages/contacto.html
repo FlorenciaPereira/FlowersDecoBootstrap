@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- link del css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- nombre del html -->
+    <title>Contacto - Flowerpots Deco </title>
+</head>
+<body>
+    <header>
+        <!-- Titulo principal -->
+        <h1 class="text-center text-uppercase text-danger"> Contactanos </h1>
+
+        <div class="container">
+            <div class="row">
+                    <a class="col-sm-3 col-md-3 bg-dark text-light" href="../index.html"> Inicio </a> 
+                    <a class="col-sm-3 col-md-3 bg-dark text-light" href="nosotros.html"> Nosotros </a>
+                    <a class="col-sm-3 col-md-3 bg-dark text-light" href="tienda.html"> Tienda </a>
+                    <a class="col-sm-3 col-md-3 bg-dark text-light" href="productos.html"> Productos </a>
+                </div>
+            </div>
+    </header>
+    
+    <main>
+            <div class="parrafo">
+                <p class="text-lowercase text-primary text-left m-35 p-35"> Contactate con nosotros.
+                <br>
+                Escribenos para dejarnos tu mensaje y/o sugerencia.</p>
+            </div>
+        
+        <!-- formulario -->
+            <form>
+                <fieldset>
+                    <legend> Formulario </legend>
+                        <div>
+                            <label for="nombre"> Ingresa con tu nombre y apellido </label>
+                            <input type="text" name="nombre" placeholder="Completa tu nombre y apellido">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email"> Ingresa tu email </label>
+                            <input type="email" required placeholder="Completa tu correo electronico">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="zona"> Selecciona tu zona</label>
+                            <select name="localidad">
+                                <option value=""> elegi tu zona</option>
+                                <option value="ciudad de buenos aires"> Ciudad de Buenos Aires</option>
+                                <option value="GBA Norte"> GBA Norte</option>
+                                <option value="GBA oeste"> GBA Oeste </option>
+                                <option value="GBA sur"> GBA Sur</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="envio"> Forma de envio  </label>
+                            <br>
+                            <input type="radio" name="envio" value="por correo"> Por correo
+                            <input type="radio" name="envio" value="a domicilio"> A domicilio
+                            <input type="radio" name="envio" value="retiro por lugar"> Retiro por lugar
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="password"> Contraseña</label>
+                            <input type="password"> 
+                        </div>
+                
+                        <div>
+                            <input type="submit" value="enviar datos">
+                            <input type="reset" value="borrar todo">
+                        </div>
+                </fieldset>
+            </form>
+
+
+        <!-- fixed -->
+        <section class="chat">
+            <img src="../img/chat.png" alt="imagen de chat">
+        </section>
+    </main>
+    
+    <footer>
+        <h5> All rights reserved </h5>
+    </footer>
+
+
+
+    <!-- link js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
